@@ -50,7 +50,7 @@ const ContactSectio = ({ isOpen, toggle }) => {
 
                 <FotterContactName>United states</FotterContactName>
                 <FotterContactNo>
-                  California, Texas, Indiana, New jersey and North Caroline
+                  California, Texas, Indiana, New jersey and North Carolina
                   {/* Finsweet@gmail.com */}
                 </FotterContactNo>
               </FotterContactlist>

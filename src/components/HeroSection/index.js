@@ -271,7 +271,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroP>BEST TRAILERS IN CANADA</HeroP>
+        <HeroP>BEST TRAILERS IN CANADA</HeroP>  
 
         <PCENTER class="text-gray-600 p-8">
           One-stop-shop for all your trucking needs. We are an authorized dealer

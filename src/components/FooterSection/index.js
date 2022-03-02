@@ -59,7 +59,7 @@ const FooterSection = ({ isOpen, toggle }) => {
             <FotterContactlist>
               <FotterContactName>Canada</FotterContactName>
               <FotterContactNo>
-                1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada
+                1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada   
               </FotterContactNo>
             </FotterContactlist>
           </FotterContact>
@@ -67,7 +67,7 @@ const FooterSection = ({ isOpen, toggle }) => {
             <FotterContactlist>
               <FotterContactName>United State</FotterContactName>
               <FotterContactNo>
-                California, Texas, Indiana, New jersey and North Caroline
+                California, Texas, Indiana, New jersey and North Carolina
               </FotterContactNo>
             </FotterContactlist>
           </FotterContact>

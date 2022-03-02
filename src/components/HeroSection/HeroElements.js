@@ -334,13 +334,15 @@ display: flex;
 z-index: 2;
 flex-direction: column;
 align-items: start;
-padding: 0px 20px 0px 0px;
+padding: 0px 50px 0px 0px;
+
+
 `;
 export const Callinfo = Styled.p`
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
+font-size: 1rem;
 
 text-align: left;
 
@@ -357,7 +359,8 @@ export const Info = Styled.div`
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
+font-size: 1rem;
+
 
 text-align: center;
 z-index: 2;
