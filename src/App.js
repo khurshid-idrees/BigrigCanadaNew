@@ -16,12 +16,12 @@ import { ProductsPage } from "./pages/ProductsPage";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
-    setIsOpen(!isOpen);
+    setIsOpen(!isOpen); 
   };
 
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> 
       <Navbar toggle={toggle}></Navbar>
       {/* <Stickbar/> */}
       <Switch>
