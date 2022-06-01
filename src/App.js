@@ -57,6 +57,6 @@ function App() {
       <BottomBar></BottomBar>
     </Router>
   );
-}
+} 
 
 export default App;
