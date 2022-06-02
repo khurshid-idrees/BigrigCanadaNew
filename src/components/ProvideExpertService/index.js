@@ -42,7 +42,7 @@ const ProvideExpertService = ({ isOpen, toggle }) => {
             </StepNoContainer>
             <StepNoContentContainer>
               <SteapHeadingContainer>
-                <StepHeading>Premium Performance</StepHeading>
+                <StepHeading>Premium Performance</StepHeading> 
                 <StepSubheading>
                   {' '}
                   Every Vanguard trailer is designed and built to include

@@ -46,13 +46,13 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
-                <a to="/">Home</a>
+                <a to="/">HOME</a>
               </NavLinks>
             </NavItem>
 
             <NavItem>
               <NavLinks to="/About" onClick={toggleHome}>
-                <a to="/About">About</a>
+                <a to="/About">ABOUT</a>
               </NavLinks>
             </NavItem>
 
@@ -67,19 +67,19 @@ const Navbar = ({ toggle }) => {
                     exact={true}
                     offset={-80}
                   >
-                    Products
+                    PRODUCTS
                   </Link>
                 </NavLinks>
               ) : (
-                <NavLinks to="/products" onClick={toggleHome}>
-                  <a to="/products">Products</a>
+                <NavLinks to="/products" onClick={toggleHome}> 
+                  <a to="/products">PRODUCTS</a>
                 </NavLinks>
               )}
             </NavItem>
 
             <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
-                <a to="/Contact">Contact</a>
+                <a to="/Contact">CONTACT</a> 
               </NavLinks>
             </NavItem>
             {/* <NavItem>

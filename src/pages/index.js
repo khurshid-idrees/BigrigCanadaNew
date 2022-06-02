@@ -8,6 +8,7 @@ import QuoteAtEnd from "../components/QuoteAtEnd";
 import ProvideExpertService from "../components/ProvideExpertService";
 import MapSection from "../components/MapSection";
 import TrailerList from "../components/TrailersList";
+import HeaderHome from "../components/HeaderHome";
 
 const SLIDE_COUNT = 5;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
@@ -25,7 +26,7 @@ const Lol = () => {
 
   function disabeled() {
     const path = window.location.pathname;
-    console.log(path === "/");
+    console.log(path === "/"); 
     if (path === "/") {
       return true;
     }
@@ -39,7 +40,8 @@ const Lol = () => {
     <>
       {/* <EmblaCarousel slides={slides} /> */}
       {/* <Herosection></Herosection> */}
-      <HeroSection></HeroSection>
+      {/* <HeroSection></HeroSection> */}
+      <HeaderHome/>
       {/* <UAboutSection></UAboutSection> */}
       <DAboutSection></DAboutSection>
       <ProvideExpertService></ProvideExpertService>

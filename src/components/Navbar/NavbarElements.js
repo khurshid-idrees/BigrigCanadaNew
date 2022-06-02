@@ -134,7 +134,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   display: block;
-  height: 80px;
+  height: 50px;
 
   padding: 0 1rem;
   color: #000;
@@ -157,7 +157,7 @@ export const NavItem = styled.li`
   // }
 `;
 export const NavLinks = styled(LinkR)`
-  color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
+  color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -169,9 +169,10 @@ export const NavLinks = styled(LinkR)`
   }
   &:hover {
     color: #0064bf;
+    border-bottom: 2px solid #0064bf;
   }
   &.active {
-    border-bottom: 3px solid #15cdfc;
+    border-bottom: 2px solid #0064bf;
   }
 `;
 export const Bars = styled(FaBars)`

@@ -12,6 +12,7 @@ import Products from "./pages/Products";
 import BottomBar from "./components/BottomBar";
 import PartnerCompnay from "./components/PartnerCompnay";
 import { ProductsPage } from "./pages/ProductsPage";
+import Footer from "./components/Footernewcomp/Footer";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -53,7 +54,8 @@ function App() {
       </Switch> */}
       {/* <PartnerCompnay></PartnerCompnay> */}
       {/* <PartnerCompnay></PartnerCompnay> */}
-      <FooterSection></FooterSection>
+      {/* <FooterSection></FooterSection> */}
+      <Footer/>
       <BottomBar></BottomBar>
     </Router>
   );
