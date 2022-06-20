@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Video from "../HeaderHome/media/Bgvideo2.mp4"
+import Video from "../HeaderHome/media/Bgvideo2.mp4";
 
 import {
   HeroContainer,
@@ -12,7 +12,7 @@ import {
   Samosa,
 } from "./HeroElements";
 
-import styled from "styled-components";
+import styled from "styled-components"; 
 
 const Gradients = styled.div`
   background-image: linear-gradient(
@@ -27,13 +27,13 @@ const Gradients = styled.div`
   position: absolute;
   z-index: 2;
 `;
-
+ 
 const HeaderHome = () => {
   return (
     <HeroContainer id="Home">
       <Gradients></Gradients>
       <HeroBg className="lg:mt-24 mt-0">
-        <BgVideo autoPlay loop muted src={Video} type="video/mp4" /> 
+        <BgVideo autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <ContainerMain>

@@ -15,7 +15,7 @@ export const AboutContainer = styled.div`
   position: relative;
   overflow: hidden;
 
-  @media screen and (max-width: 2068px) {
+  @media screen and (max-width: 2068px ) {
     flex-direction: column-reverse;
   }
 `;

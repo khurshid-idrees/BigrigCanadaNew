@@ -20,7 +20,7 @@ const Lol = () => {
   );
   useEffect(() => {
     // Update the document title using the browser API
-    disabeled() ? setdisabel(true) : setdisabel(false);
+    disabeled() ? setdisabel(true) : setdisabel(false); 
     window.localStorage.setItem("product", disabel);
   });
 

@@ -1,6 +1,6 @@
-import Styled from 'styled-components';
-import bgimage from '../../images/Bg.png';
-import { Link as LinkR } from 'react-router-dom';
+import Styled from "styled-components";
+import bgimage from "../../images/Bg.png";
+import { Link as LinkR } from "react-router-dom";
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
@@ -334,15 +334,13 @@ display: flex;
 z-index: 2;
 flex-direction: column;
 align-items: start;
-padding: 0px 50px 0px 0px;
-
-
+padding: 0px 20px 0px 0px;
 `;
 export const Callinfo = Styled.p`
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 1rem;
+font-size: 15px;
 
 text-align: left;
 
@@ -359,8 +357,7 @@ export const Info = Styled.div`
 font-family: Poppins;
 font-style: normal;
 font-weight: bold;
-font-size: 1rem;
-
+font-size: 15px;
 
 text-align: center;
 z-index: 2;
@@ -434,7 +431,7 @@ display: block;
 }
 `;
 export const NavLinks = Styled(LinkR)`
-color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
+color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
 display: flex;
 align-items: center;
 text-decoration: none;
